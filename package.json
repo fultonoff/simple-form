@@ -1,0 +1,11 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "this is a simple responsive nav bar using html css and pure JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fulton Kilebe",
+  "license": "ISC"
+}
