@@ -42,10 +42,12 @@ body {
 
 .nav__menu .nav__list {
     display: flex;
+    
 
 }
 
 .nav__menu{
+    
     background-color: #F9826C;
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -216,6 +218,27 @@ li a,
 .content, .text, .text-down{
    
     font-weight: 300;
+}
+
+.content .download img{
+    width: 30px;
+    margin-top: 20px;
+    animation: anim 1s infinite;
+}
+
+@keyframes anim {
+    0%{
+        transform: translateY(-1px);
+        box-shadow: 0 0 10px #F9826C;
+    }
+
+    50%{
+        transform: translateY(-5px);
+    }
+
+    100%{
+        transform: translateY(-1px);
+    }
 }
 
 @media (max-width: 768px) {
