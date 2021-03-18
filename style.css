@@ -95,6 +95,7 @@ li a,
 
     .nav__menu {
         display: none;
+        z-index: 2;
     }
 
     .nav__menu.active {
